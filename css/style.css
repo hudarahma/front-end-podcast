@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121725;
+    font-family: 'Chivo', sans-serif;
+}
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/******************************** Section logo ***********************************/
+
+#logo {
+    position: absolute;
+    width: 1275px;
+    height: 640px;
+    left: 165px;
+    top: 100px;
+}
+
+/******************************** Section intro ***********************************/
+#intro {
+    z-index: 10;
+    background-color: #121725; /* 121725 */
+    position: absolute;
+    width: 723px;
+    height: 509px;
+    left: 165px;
+    top: 261px;
+
+
+}
+
+.title-green {
+    color: #54E6AF;
+}
+
+#intro h1  {
+    color: #FFFFFF;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: uppercase;
+    width: 646px;
+    height: 124px;
+    left: 165px;
+    top: 349px;
+    margin-top: 30px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#intro p {
+    color: #C2CBE5;
+    width: 445px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+
+#singup {
+    display: flex;
+    background: #2C344B;
+    height: 56px;
+    width: 427px;
+    left: 165px;
+    top: 621px;
+    border-radius: 28px;
+    overflow: hidden;
+
+}
+
+#singup a {
+    text-decoration: none;
+    color: #121725 ;
+}
+
+#singup > input[type='email'] {
+    border-radius: 28px 0 0 28px;
+    margin-right: auto;
+    padding-left: 25px;
+    background: #2C344B;
+    color: #FFFFFF;
+    border: none;
+}
+
+#singup input:focus{
+    outline: none;
+    
+}
+
+
+#singup button {
+    border-radius: 28px;
+    width: 162px;
+    height: 46px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    background-color: #54E6AF;
+    color: #121725;
+    border: none;
+    cursor: pointer;
+}
+
+#singup button:focus{
+    outline: none;
+}
+
+#singup button:hover {
+    background-color: #43a57f;
+}
+
+
+.img-podcasts {
+    width: 536px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+/***************************** Section img *******************************/
+#img {
+    z-index: 0;
+    position: absolute;
+    width: 888px;
+    height: 640px;
+    left: 552px;
+    top: 130px;
+}
+
+.patterns {
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    left: 650px;
+    top: 580px;
+}

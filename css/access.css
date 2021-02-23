@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #121725;
+    font-family: 'Chivo', sans-serif;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    background: url(/assets/desktop/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/* .host {
+    position: absolute;
+    width: 1441px;
+    height: 960px;
+    left: calc(50% - 1441px/2 + 0.5px);
+    top: calc(50% - 960px/2 + 258.5px);
+    background: url(/assets/desktop/image-host.jpg);
+    mix-blend-mode: screen;
+} */
+
+.logo {
+    z-index: 11;
+    position: absolute;
+    width: 134.85px;
+    height: 56px;
+    left: 165px;
+    top: 72px;
+}
+.logi-pod {
+    width: 56px;
+    height: 56px;
+    left: 165px;
+    top: 72px;
+}
+
+/* .pod-text {
+    width: 65.65px;
+    height: 35.65px;
+    left: 234.2px;
+    top: 82px;
+} */
+
+.header span {
+    position: absolute;
+    height: 38px;
+    left: 70.35%;
+    right: 11.46%;
+    top: calc(50% - 38px/2);
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    position: absolute;
+    width: 1110px;
+    height: 368px;
+    /* background: pink; */
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#box {
+    width: 255px;
+    height: 170px;
+    background: green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+#box span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+}
+
+.rgb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box .rgb h4 {
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+#box .rgb span {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.hsl {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#box .hsl span {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+#box .hsl h4 {
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
