@@ -5,27 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/access-form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
     <title>Access Form</title>
 </head>
 <body>
+    <main>
+        <section id='logo'>
+            <img src="/assets/desktop/logo.svg" alt="logo"/>
+        </section>
 
-    <section id='logo'>
-        <img src="/assets/desktop/logo.svg" alt="logo"/>
-    </section>
+        <section id="inter-form">
+            <h1>SUBMIT A PODCAST IDEA.</h1>
+            <p>Do you have an idea for a podcast you’ve always wanted to hear?  Fill our the form below and let us know!</p>
+            <form id="form">
+                <input name='new-name' type="text" placeholder="Name" />
+                <input name='new-email' type="email" placeholder="Email" />
+                <div  class="text" contenteditable="true" ></div>
+                <div class="err" hidden='true'>Uh-oh! Error State!</div>
+                <button type="submit">Submit</button>
+            </form>
 
-    <section id="inter-form">
-        <form id="form">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <div class='text' contenteditable="true" >Discribtion</div>
-            <button type="submit">Submit</button>
-        </form>
-    
-    </section>
-    <section id="img">
-        <img src="/assets/desktop/image-host.jpg" alt="host" />
-        <img class='patterns' src="/assets/desktop/bg-pattern-dots.svg" alt="dots">
-    </section>
-    
+
+            <div class="img-podcasts">
+                <img src="/assets/desktop/spotify.svg" alt="podcasts" style="width: 96px;
+                height: 29px; ">
+                <img src="/assets/desktop/apple-podcast.svg" alt="podcasts" style="width: 78px;
+                height: 29px;">
+                <img src="/assets/desktop/google-podcasts.svg" alt="podcasts" style=" width: 125px;
+                height: 18px;">
+                <img src="/assets/desktop/pocket-casts.svg" alt="podcasts" style="width: 129px;
+                height: 26px;">
+            </div>
+        
+        </section>
+        <section id="img">
+            <!-- <img src="/assets/desktop/image-host.jpg" alt="host" /> -->
+            <img class='patterns' src="/assets/desktop/bg-pattern-dots.svg" alt="dots">
+        </section>
+    </main>
+    <script src="/js/access-form.js"></script>
 </body>
 </html>
