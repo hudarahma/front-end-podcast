@@ -1,0 +1,120 @@
+:root {
+    --dark: #121725;
+    --green : #54E6AF;
+    --green-hover : #348f6c;
+    --white: #FFFFFF ;
+    --input-background : #2C344B;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--dark);
+    font-family: 'Chivo', sans-serif;
+}
+
+/******************************** Section logo ***********************************/
+
+#logo {
+    position: absolute;
+    width: 1275px;
+    height: 640px;
+    left: 165px;
+    top: 100px;
+}
+
+/******************************** Section inter-form ***********************************/
+#inter-form {
+    z-index: 10;
+    background-color: var(--dark); /* 121725 */
+    position: absolute;
+    width: 723px;
+    height: 509px;
+    left: 165px;
+    top: 261px;
+}
+
+form {
+    width: 100%;
+    height: 500px;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form input[type='text'] , input[type='email'] {
+    width: 350px;
+    height: 56px;
+    background: var(--input-background);
+    color: var(--white);
+    font-size: 20px;
+    border-radius: 28px;
+    padding: 15px;
+    border: none;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.text {
+    width: 350px;
+    height: 200px;
+    border-radius: 26px;
+    background: var(--input-background);
+    color: var(--white);
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+}
+
+.text:focus {
+    outline: none;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    border-radius: 28px;
+    cursor: pointer;
+    color: var(--dark);
+    background: var(--green);
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: none;
+}
+
+button:hover {
+    background: var(--green-hover);
+}
+
+button:focus {
+    outline: none;
+}
+
+/***************************** Section img *******************************/
+#img {
+    z-index: 0;
+    position: absolute;
+    width: 888px;
+    height: 640px;
+    left: 552px;
+    top: 130px;
+}
+
+.patterns {
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    left: 650px;
+    top: 580px;
+}

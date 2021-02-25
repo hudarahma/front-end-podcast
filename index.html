@@ -14,7 +14,7 @@
   <main >
   
     <section id='logo'>
-      <img src="/assets/desktop/logo.svg" alt="logo"/><span>pod</span>
+      <img src="/assets/desktop/logo.svg" alt="logo"/>
     </section>
     <section id="intro">
       <h1>
@@ -27,9 +27,10 @@
       </p>
 
       <form id="singup">
-        <input type="email" placeholder="Email Address"/><button type="submit"><a href="/access.html" >Request Access</a></button>
+        <input type="email" name="email" placeholder="Email Address"/><button type="submit">Request Access</button>
         
       </form>
+      <div id="show-message" hidden='true'>Oops! wrong email address</div>
 
       <div class="img-podcasts">
         <img src="/assets/desktop/spotify.svg" alt="podcasts" style="width: 96px;
@@ -48,5 +49,6 @@
       <img class='patterns' src="/assets/desktop/bg-pattern-dots.svg" alt="dots">
     </section>
   </main>
+  <script src="/js/index.js"></script>
 </body>
 </html>
